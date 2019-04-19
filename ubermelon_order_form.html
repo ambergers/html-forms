@@ -43,10 +43,45 @@
         Last Name <input type = 'text' name = 'lastname'>
         <br>
 
-        <select>
-            <option value = 'Watermelon'> Watermelon </option>
+        Melon Type
+        <select name = "melontype">
+          <option value = 'watermelon'> Watermelon </option>
+          <option value = 'honeydew'> Honeydew </option>
+          <option value = 'canteloupe'> Canteloupe </option>
+          <option value = 'crenshaw'> Crenshaw </option>
+          <option value = 'canary'> Canary </option>
         </select>
-      
+        <br>
+
+        Quantity*: <input type = 'text' name = 'quantity'>
+        <br>
+        Delivery Time 
+        <input type = "radio" name = "time" value="12am12pm">12:00am-12:00pm
+        <input type = "radio" name = "time" value="12pm12am">12:00pm-12:00am
+        <input type = "radio" name = "time" value="timeillusion">Time is an illusion
+
+        <br>
+        Returning customer?
+        <input type = "radio" name = "returning" value="yes">Yes
+        <input type = "radio" name = "returning" value="no">No
+
+        <br>
+        For Statistical Purposes:
+        <input type = "checkbox" name = "stats" value="dog">Dog
+        <input type = "checkbox" name = "stats" value="cat">Cat
+        <input type = "checkbox" name = "stats" value="hedgehog">Hedgehog
+        <input type = "checkbox" name = "stats" value="balloonicorn">Balloonicorn
+        <input type = "checkbox" name = "stats" value="yak">Yak
+        
+        <br>
+        <input type = "submit">
+
+        <br>
+        <footer>
+          *Quantities given are by the flat.
+        </footer>
+
+
     </form>
   </body>
 
